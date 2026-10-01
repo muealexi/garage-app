@@ -9,11 +9,12 @@
 <body><main>
 <nav><a href="index.html">Garage</a><a href="support.html">Support</a></nav>
 <h1>Privacy Policy</h1>
-<p class="muted">Garage — BLE Door Opener, for iPhone. Effective 24 September 2026.</p>
+<p class="muted">Garage — BLE Door Opener, for iPhone. Effective 1 October 2026.</p>
 
 <h2>In short</h2>
 <p>Garage has no account, makes no internet connection of its own, contains no analytics, advertising or tracking,
-and sends nothing to us or to anyone else. What it keeps stays on your devices and in your own iCloud Keychain.</p>
+and sends nothing to us or to anyone else. What it keeps stays on your devices, in your own iCloud Keychain and on your
+openers. The map you use to place an opener is Apple Maps, which loads the area shown from Apple.</p>
 
 <h2>Who is responsible</h2>
 <address>DrM, Dr. Müller AG<br>Alte Landstrasse 415<br>8708 Männedorf<br>Switzerland<br>
@@ -23,12 +24,29 @@ and sends nothing to us or to anyone else. What it keeps stays on your devices a
 <ul>
 <li><strong>Your openers.</strong> Each opener's name, its key, and how you have ordered and grouped them. They are
 stored in your iCloud Keychain, so your other Apple devices have them too if iCloud Keychain is on. We have no access
-to them.</li>
+to them. A guest's code you scan is kept on that device only.</li>
 <li><strong>Where each opener is.</strong> When you pair an opener, and only if you allow location access while using
-the app, Garage notes where your phone is at that moment. It uses this to select the nearest opener when you arrive.
-The location is kept with that opener in your iCloud Keychain and is never sent to us. If you do not allow location
+the app, Garage notes where your phone is at that moment; you can move the pin on the map. It uses this to select the nearest opener when you arrive:
+each time you open the app or ask Siri, it checks where your phone is, compares, and keeps nothing of that check.
+The opener's location is kept with that opener in your iCloud Keychain and is never sent to us. If you do not allow location
 access, the app works the same, without the pre-selection.</li>
+<li><strong>Your name.</strong> The name you give in the app is kept in your iCloud Keychain. When you open a door
+with family access, from the app or with Siri, it is sent to the opener with the command, so the opener can record
+who opened it. It travels over Bluetooth unencrypted, so a device listening nearby could read it.</li>
+<li><strong>The last record you read.</strong> When you read an opener's record of recent opens, the app keeps that
+copy on this device, so it can show it away from the garage.</li>
+<li><strong>Update rights.</strong> If you update an opener's firmware, the key that allows it is kept in your iCloud
+Keychain. Firmware images you choose from Files are passed to the opener over Bluetooth and are not sent anywhere
+else.</li>
 </ul>
+
+<h2>What the opener keeps</h2>
+<p>The opener itself, not the app and not us, keeps a short record of its most recent opens: who opened it, and when
+if it knows the time. It also keeps the guests you invite, with their names and end dates, and, if you give it one,
+your WiFi network's name and password, which the app sends to it encrypted over Bluetooth and does not keep
+itself. Each open also sets the opener's clock from your phone. Family members read the
+record and the guests from the app, over Bluetooth, at the garage. Wiping the opener with its button clears its keys, its
+guests and its record; its WiFi details stay on it until you set others.</p>
 
 <h2>What the app talks to</h2>
 <ul>
@@ -44,10 +62,14 @@ is between the opener, your home network and Apple, and none of it passes throug
 <p>When you share an opener as a QR code, that code contains the opener's key. Anyone who scans it can open that
 door, so share it only with people who should.</p>
 
+<p>A guest's code works the same way, for one door and until the end date you chose, and a code that shares update
+rights lets whoever scans it update that opener's firmware until the opener is wiped.</p>
+
 <h2>Removing your data</h2>
-<p>Forgetting an opener in the app removes its key and its location from your iCloud Keychain. Deleting the app
-does not on its own clear iCloud Keychain, so forget your openers first if you want them gone. The opener keeps its
-own copy of each key until it is reset.</p>
+<p>Forgetting an opener in the app removes its key and its location from your iCloud Keychain, and the record you
+last read from this device. Its update rights and your name stay in your iCloud Keychain; update rights stop working
+once the opener is wiped. Deleting the app does not on its own clear iCloud Keychain, so forget your openers first if
+you want them gone. The opener keeps its own copy of each key until it is wiped.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the new version is published on this page with a new effective date.</p>
