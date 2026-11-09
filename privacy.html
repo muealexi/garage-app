@@ -9,12 +9,13 @@
 <body><main>
 <nav><a href="index.html">Garage</a><a href="support.html">Support</a></nav>
 <h1>Privacy Policy</h1>
-<p class="muted">Garage — BLE Door Opener, for iPhone. Effective 1 October 2026.</p>
+<p class="muted">Garage — BLE Door Opener, for iPhone. Effective 9 November 2026.</p>
 
 <h2>In short</h2>
 <p>Garage has no account, makes no internet connection of its own, contains no analytics, advertising or tracking,
 and sends nothing to us or to anyone else. What it keeps stays on your devices, in your own iCloud Keychain and on your
-openers. The map you use to place an opener is Apple Maps, which loads the area shown from Apple.</p>
+openers. The map you use to place an opener is Apple Maps, which loads the area shown from Apple, and an address you search
+for there is sent to Apple to find it.</p>
 
 <h2>Who is responsible</h2>
 <address>DrM, Dr. Müller AG<br>Alte Landstrasse 415<br>8708 Männedorf<br>Switzerland<br>
@@ -26,7 +27,9 @@ openers. The map you use to place an opener is Apple Maps, which loads the area 
 stored in your iCloud Keychain, so your other Apple devices have them too if iCloud Keychain is on. We have no access
 to them. A guest's code you scan is kept on that device only.</li>
 <li><strong>Where each opener is.</strong> When you pair an opener, and only if you allow location access while using
-the app, Garage notes where your phone is at that moment; you can move the pin on the map. It uses this to select the nearest opener when you arrive:
+the app, Garage notes where your phone is at that moment. When you open a door from the app and that opener has no
+location yet, or one more than 2 km away, it notes where your phone is then instead. You can move the pin on the map
+or search for an address. It uses this to select the nearest opener when you arrive:
 each time you open the app or ask Siri, it checks where your phone is, compares, and keeps nothing of that check.
 The opener's location is kept with that opener in your iCloud Keychain and is never sent to us. If you do not allow location
 access, the app works the same, without the pre-selection.</li>
@@ -36,8 +39,7 @@ who opened it. It travels over Bluetooth unencrypted, so a device listening near
 <li><strong>The last record you read.</strong> When you read an opener's record of recent opens, the app keeps that
 copy on this device, so it can show it away from the garage.</li>
 <li><strong>Update rights.</strong> If you update an opener's firmware, the key that allows it is kept in your iCloud
-Keychain. Firmware images you choose from Files are passed to the opener over Bluetooth and are not sent anywhere
-else.</li>
+Keychain. The firmware comes with the app and is passed to the opener over Bluetooth; nothing is downloaded.</li>
 </ul>
 
 <h2>What the opener keeps</h2>
@@ -59,8 +61,8 @@ opener's HomeKit setup code, which it reads from the opener over Bluetooth. Anyt
 is between the opener, your home network and Apple, and none of it passes through us.</p>
 
 <h2>Sharing an opener</h2>
-<p>When you share an opener as a QR code, that code contains the opener's key. Anyone who scans it can open that
-door, so share it only with people who should.</p>
+<p>When you share an opener as a QR code, that code contains the opener's key and, if it has one, its location. Anyone
+who scans it can find and open that door, so share it only with people who should.</p>
 
 <p>A guest's code works the same way, for one door and until the end date you chose, and a code that shares update
 rights lets whoever scans it update that opener's firmware until the opener is wiped.</p>
